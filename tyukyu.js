@@ -1,4 +1,4 @@
-window.onload = (function(){
+window.addEventListener('DOMContentLoaded', function(){
     $('.toggle-btn').click(function(){
         if($('.container').hasClass('open')){
             $('.container').removeClass('open');
