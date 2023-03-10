@@ -1,4 +1,4 @@
-$(function(){
+window.onload = (function(){
     $('.toggle-btn').click(function(){
         if($('.container').hasClass('open')){
             $('.container').removeClass('open');
